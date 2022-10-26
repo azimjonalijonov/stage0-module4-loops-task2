@@ -4,7 +4,7 @@ public class Multiplication {
     public void printMultiplied(int multiplyByAndToInclusive) {
         int k=0;
         int a =0;
-        while(a<=multiplyByAndToInclusive){
+        while(a<=Math.abs(multiplyByAndToInclusive)){
             System.out.println(a*multiplyByAndToInclusive);
             a++;
         }
